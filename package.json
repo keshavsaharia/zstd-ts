@@ -1,6 +1,6 @@
 {
   "name": "ts-zstd",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "TypeScript functions for reading/writing from ZStandard compressed files",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

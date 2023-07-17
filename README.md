@@ -1,4 +1,4 @@
-# zstd-ts
+# TypeScript zstd
 
 TypeScript functions for reading/writing Zstd compressed files. Includes Zstd binaries for Linux, Windows, and Mac OSX.
 
@@ -40,6 +40,15 @@ async function main() {
 	})
 }
 ```
+
+## Roadmap
+
+- Read directly from URL (pipe output stream to decompression)
+- Stream reader that splits content by delimiter and returns chunks to callback function
+	- Use case: split PGN files by regex to test for newlines/EOF
+- Testing
+	- Integrate Jest/ts-jest framework
+	- Create test compressed files
 
 ## Author
 
