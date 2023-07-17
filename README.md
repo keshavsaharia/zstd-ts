@@ -8,7 +8,7 @@ The `compress` function takes a path to an input and output file destination. Th
 compression level, between 1 and 22.
 
 ```typescript
-import { compress } from 'zstd-ts'
+import { compress } from 'ts-zstd'
 
 async function main() {
 	await compress('/path/to/input.zstd', '/path/to/output')
@@ -22,7 +22,7 @@ The `decompress`, `streamDecompress`, and `decompressToStream` functions provide
 into a target directory, or stream the contents of the compressed file in memory for processing.
 
 ```typescript
-import { decompress, streamDecompress } from 'zstd-ts'
+import { decompress, streamDecompress } from 'ts-zstd'
 
 async function main() {
 	await decompress('/path/to/input.zstd', '/path/to/output')
