@@ -1,0 +1,24 @@
+{
+	"compileOnSave": true,
+	"compilerOptions": {
+		"baseUrl": ".",
+        "experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"declaration": true,
+		"removeComments": false,
+		"outDir": "./dist",
+		"esModuleInterop": true,
+		"lib": [
+			"es2021"
+		],
+		"module": "CommonJS",
+		"target": "es2021",
+		"types": ["node"]
+	},
+	"include": [
+		"./src/**/*"
+	],
+	"exclude": [
+		"node_modules"
+	]
+}
